@@ -26,13 +26,13 @@
             <h5>Realiza una búsqueda personalizada</h5>
           </div>
           <div class="filtroCiudad input-field" id="ciudad">
-            <label for="selectCiudad">Ciudad:</label></br>
+            <label for="selectCiudad">Ciudad:</label></br></br>
             <select name="ciudad" id="selectCiudad">
               <option value = "" selected></option>
             </select>
           </div>
           <div class="filtroTipo input-field" id="tipo">
-            <label for="selecTipo">Tipo:</label><br>
+              <label for="selecTipo">Tipo:</label><br></br>
             <select name="tipo" id="selectTipo">
               <option value="" selected></option>
 
@@ -56,7 +56,7 @@
         <h5>Resultados de la búsqueda:</h5>
         <div class="itemMostrado">
             <div class="itemMostrado"  id="itemMostrado">
-                <table width="100%" style="border: 1px solid #c8c8c8;" id="t01" cellspacing="0" cellpadding="0">            
+                <table id='t01'>            
                 <thead>
                       <tr>
                         <th align="left" class="table_header">Dirección</th>
